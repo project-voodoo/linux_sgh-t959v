@@ -30,7 +30,7 @@ extern struct snd_soc_codec_device soc_codec_dev_wm8994;
 #if defined CONFIG_S5PC110_KEPLER_BOARD
 #include "wm8994_def_kepler.h"
 #else
-#include "wm8994_def_behold3.h"
+#include "wm8994_def.h"
 #endif
 
 extern struct snd_soc_dai wm8994_dai;
